@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.col-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+
+.col {
+  display: flex;
+  flex-flow: column wrap;
+  width:25%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.gif {
+  padding: 1%;
+  width: calc(100% - 2%);
+  height: auto;
+}
